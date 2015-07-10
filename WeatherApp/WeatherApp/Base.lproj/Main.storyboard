@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blue1web.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nrA-iD-hni">
+                                <rect key="frame" x="0.0" y="20" width="600" height="580"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Al-S7-qQ6">
+                                <rect key="frame" x="300" y="300.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dw8-AA-mVh">
+                                <rect key="frame" x="279" y="329" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGV-cw-24H">
+                                <rect key="frame" x="279" y="382.5" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wKw-lr-ywr">
+                                <rect key="frame" x="279" y="446" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nrA-iD-hni" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CKJ-H5-RdP"/>
+                            <constraint firstItem="Dw8-AA-mVh" firstAttribute="top" secondItem="1Al-S7-qQ6" secondAttribute="bottom" constant="28.5" id="CYF-FQ-vke"/>
+                            <constraint firstAttribute="centerX" secondItem="1Al-S7-qQ6" secondAttribute="centerX" id="VUe-FX-bzS"/>
+                            <constraint firstItem="nrA-iD-hni" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Xg1-kz-wVv"/>
+                            <constraint firstAttribute="centerX" secondItem="Dw8-AA-mVh" secondAttribute="centerX" id="bdx-Y0-WNN"/>
+                            <constraint firstItem="wKw-lr-ywr" firstAttribute="top" secondItem="zGV-cw-24H" secondAttribute="bottom" constant="43" id="f2d-5o-WGi"/>
+                            <constraint firstAttribute="centerX" secondItem="zGV-cw-24H" secondAttribute="centerX" id="jhl-y8-2nL"/>
+                            <constraint firstAttribute="centerY" secondItem="1Al-S7-qQ6" secondAttribute="centerY" id="nge-ap-qHc"/>
+                            <constraint firstAttribute="centerX" secondItem="wKw-lr-ywr" secondAttribute="centerX" id="sdL-uP-Khb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nrA-iD-hni" secondAttribute="bottom" id="uap-ae-8Mu"/>
+                            <constraint firstItem="zGV-cw-24H" firstAttribute="top" secondItem="Dw8-AA-mVh" secondAttribute="bottom" constant="33" id="xUN-pt-WJB"/>
+                            <constraint firstAttribute="trailing" secondItem="nrA-iD-hni" secondAttribute="trailing" id="zSJ-14-lYi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelAddress" destination="wKw-lr-ywr" id="qsh-wI-hbX"/>
+                        <outlet property="labelLocation" destination="1Al-S7-qQ6" id="V6h-Ff-z4g"/>
+                        <outlet property="labelTemp" destination="Dw8-AA-mVh" id="M4Y-C6-KaT"/>
+                        <outlet property="labelTimeZone" destination="zGV-cw-24H" id="WIK-yS-ibJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="blue1web.jpg" width="360" height="360"/>
+    </resources>
+</document>
